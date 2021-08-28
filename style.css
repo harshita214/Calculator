@@ -14,6 +14,9 @@ input:focus{
     height: 2rem;
 }
 
+#output{
+    height: 30rem;
+}
 
 .box{
     width: 150px;
@@ -27,13 +30,14 @@ input:focus{
     align-content: center;
     flex-direction: column;
     border-radius: 15px;
-    flex: auto;
+    
     display: inline-flex;
     
 
 }
+
 a{
-    
+    text-decoration: none;
 }
 
 
