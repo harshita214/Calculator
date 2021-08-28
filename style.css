@@ -1,0 +1,47 @@
+label{
+    display: block;
+    margin-top: 2rem;
+}
+input{
+    height: 2rem;
+    border: none;
+    border-bottom :1px palevioletred;
+    padding: 0 2rem;
+}
+input:focus{
+    outline: none;
+    border-bottom: 2rem;
+    height: 2rem;
+}
+
+
+.box{
+    width: 150px;
+    height: 150px;
+    padding: 5%;
+    border:5px solid rgb(243, 183, 183);
+    box-shadow: 5px 5px 10px rgb(143, 52, 52);  
+    margin-left: 2rem;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    border-radius: 15px;
+    flex: auto;
+    display: inline-flex;
+    
+
+}
+a{
+    
+}
+
+
+
+body{
+    height: 100vh;
+    background:  url('https://images.news18.com/ibnlive/uploads/2021/03/1615695964_math-day-shutterstock.jpg')
+}
+ 
+
+
