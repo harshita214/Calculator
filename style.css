@@ -19,8 +19,8 @@ input:focus{
 }
 
 .box{
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     padding: 5%;
     border:5px solid rgb(243, 183, 183);
     box-shadow: 5px 5px 10px rgb(143, 52, 52);  
@@ -30,14 +30,28 @@ input:focus{
     align-content: center;
     flex-direction: column;
     border-radius: 15px;
-    
+    background-color: white;
     display: inline-flex;
-    
+}
 
+.calculate{
+    color: black;
+    padding: 0.5rem;
+    background-color: cornflowerblue;
+    border-radius: 20px;
+}
+
+.calculate1{
+    color: black;
+    padding: 0.5rem;
+    background-color: cornflowerblue;
+    border-radius: 20px;
 }
 
 a{
     text-decoration: none;
+    color: rgb(14, 1, 6);
+    font-size: 1.5rem;
 }
 
 
@@ -46,6 +60,32 @@ body{
     height: 100vh;
     background:  url('https://images.news18.com/ibnlive/uploads/2021/03/1615695964_math-day-shutterstock.jpg')
 }
- 
+
+@media screen and (max-width: 700px){
+    h2{
+        font-size: 1rem;
+    }
+}
+
+.cbox{
+    justify-content: center;
+    flex-direction: row;
+    width: 100rem;
+    height: 100rem;
+    padding: 7%;
+}
+
+.design_heading{
+    font-size: 2rem;
+    color: rgb(3, 10, 10);
+    text-decoration-line: underline;
+    padding-left: 2rem;
+    text-indent: 1px;
+    font: 600;
+    
+    
+    
+}
+
 
 
